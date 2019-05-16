@@ -20,7 +20,7 @@ Here we provide two new corpora that address these limitations for certain appli
 
 ## Corpora Overview
 ### - 2019 Financial Outlooks 
-This corpus contains 10 ``2019 Outlook Reports'' produced by financial institutions, in English, and freely available online. Each report ranges from 15 to 144 pages, with a median length of 40 pages; each contains a disclaimer, a table of content in a handful of cases, as well as annotated tables and charts. 
+This corpus contains 10 ``2019 Outlook Reports'' produced by financial institutions, in English, and freely available online. Each report ranges from 10 to 144 pages, with a median length of 33 pages; each contains a disclaimer, a table of content in a handful of cases, as well as annotated tables and charts. 
 
 There are no Gold summary per-se. Instead, we define the gold summaries as follows:
 - Either the collection of sentences or sections of sentences, which appear in bold in the content;
@@ -31,7 +31,7 @@ We do not enforce any constraint on the length of the Gold summaries.
 These outlook reports are made available as PDF and DOCX, the latter format allowing users of Goldsum to better control for disclaimers, tables of content, tables, and charts in their summarization tests.
 
 ### - Classical Literature
-This corpus contains 11 English-language classical books that are available freely online in PDF or TXT formats. They range from 250 to 800 pages, with a median length of 350 pages. Each classical book contains preface, postface and a table of content.
+This corpus contains 11 English-language classical books that are available freely online in PDF or TXT formats. They range from 53 to 1139 pages, with a median length of 198 pages. Each classical book typically contains preface, postface and a table of content.
 
 There are Gold summaries, which are retrieved from WikiSummary http://wikisum.com/w/Main_Page and free to use.
 
