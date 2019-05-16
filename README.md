@@ -20,7 +20,7 @@ Here we provide two new corpora that address these limitations for certain appli
 
 ## Corpora Overview
 ### - 2019 Financial Outlooks 
-This corpus contains 10 ``2019 Outlook Reports'' produced by financial institutions, in English, and freely available online. Each report ranges from 10 to 144 pages, with a median length of 33 pages; each contains a disclaimer, a table of content in a handful of cases, as well as annotated tables and charts. 
+This corpus contains 10 "2019 Outlook Reports" produced by financial institutions, in English, and freely available online. Each report ranges from 10 to 144 pages, with a median length of 33 pages; each contains a disclaimer, a table of content in a handful of cases, as well as annotated tables and charts. 
 
 There are no Gold summary per-se. Instead, we define the gold summaries as follows:
 - Either the collection of sentences or sections of sentences, which appear in bold in the content;
