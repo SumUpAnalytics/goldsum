@@ -11,7 +11,7 @@ A few corpuses are commonly used in summarization research:
 - DUC. DUC 2004 seems to be used for summarization tests. https://duc.nist.gov/data.html. Note that there is paperwork involved to get access to that dataset.
 
 ## Motivation
-Through our own summarization research and interactions with users, we noticed certain limitations, for certain applications, from using the aforementioned datasets for benchmarking of algorithms.
+Through our own summarization research and interactions with users, we noticed certain limitations, for certain applications, from using the aforementioned datasets for benchmarking algorithms.
 - News articles typically are fairly short, while the majority of documents our users deal with tend to be in the tens to hundreds of pages
 - News articles typically are fairly focused on an events and its immediate developments, or on a fairly contained subjects. The majority of our users deal with documents that are addressing multiple topics within a broader subject. Even in the case of a single-topic write-up, the content commonly is more dispersed than what is found in news articles
 - News articles regularly have highlights at their beginning
