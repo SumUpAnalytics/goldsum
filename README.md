@@ -26,7 +26,11 @@ There are no Gold summary per-se. Instead, we define the gold summaries as follo
 - Either the collection of sentences or sections of sentences, which appear in bold in the content;
 - Or, any sentences that are highlighted as an insert within the content.
 
-We do not enforce any constraint on the length of the Gold summaries.
+We do not enforce any constraint on the length of the Gold summaries. Sentences in any Gold summary respect the order in which they appear in the raw document.
+
+In cases where both a highlighted insert and bold sentences appear in the content, we retain all of it as part of the Gold summary of the document. In that case, the highlighted insert will come on the first page of the Gold summary, and the bold sentences will be added subsequently, starting on a new page.
+
+In cases where there are two kinds of summary, typically a summary of the whole outlook and then further in the document, a summary of each section, we reatin all of it as part of the Gold summary of the document. In that case, the summary for the whole outllok will come on the first page of the Gold summary, and the summaries for each section of the document will be added subsequently, starting on a new page.
 
 These outlook reports are made available as PDF and DOCX, the latter format allowing users of Goldsum to better control for disclaimers, tables of content, tables, and charts in their summarization tests.
 
