@@ -13,7 +13,7 @@ Several corpora are commonly used in summarization research, including:
 ## Motivation
 Through our own summarization research and interactions with users, we noticed limitations, for certain applications, in using the aforementioned datasets for benchmarking algorithms.
 - News articles are typically fairly short, while the majority of documents our users deal with tend to be in the tens to hundreds of pages.
-- News articles are typically fairly focused on events and related immediate developments, or on a fairly slef-contained subjects. The majority of our users deal with documents that are mentioning multiple topics within a broader subject. Even in the case of a single-topic write-up, the content is commonly more dispersed than what is found in news articles.
+- News articles are typically fairly focused on events and related immediate developments, or on a fairly self-contained subjects. The majority of our users deal with documents that are mentioning multiple topics within a broader subject. Even in the case of a single-topic write-up, the content is commonly more dispersed than what is found in news articles.
 - News articles are written in journalistic style, where a summary of the article is provided in the first few sentences, thus creating a bias towards algorithms that weight initial sentences more (the [https://arxiv.org/abs/1804.11283 newsroom paper] clearly shows that a simple such baseline outperforms all the methods).
 
 Here we provide two new corpora that address these limitations for certain applications of summarization.
