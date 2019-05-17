@@ -13,8 +13,8 @@ Several corpora are commonly used in summarization research, including:
 ## Motivation
 Through our own summarization research and interactions with users, we noticed limitations, for certain applications, in using the aforementioned datasets for benchmarking algorithms.
 - News articles are typically fairly short, while the majority of documents our users deal with tend to be in the tens to hundreds of pages.
-- News articles are typically fairly focused on events and related immediate developments, or on a fairly self-contained subjects. The majority of our users deal with documents that are mentioning multiple topics within a broader subject. Even in the case of a single-topic write-up, the content is commonly more dispersed than what is found in news articles.
-- News articles are written in journalistic style, where a summary of the article is provided in the first few sentences, thus creating a bias towards algorithms that weight initial sentences more (the [https://arxiv.org/abs/1804.11283 newsroom paper] clearly shows that a simple such baseline outperforms all the methods).
+- News articles are typically fairly focused on events and related immediate developments, or on a fairly self-contained subject. The majority of our users deal with documents that are mentioning multiple topics within a broader subject. Even in the case of a single-topic write-up, the content is commonly more dispersed than what is found in news articles.
+- News articles are written in journalistic style, where a summary of the article is often provided in the first few sentences, thus creating a bias towards algorithms that weight initial sentences more (the [https://arxiv.org/abs/1804.11283 newsroom paper] clearly shows that a simple such baseline outperforms all the methods).
 
 Here we provide two new corpora that address these limitations for certain applications of summarization.
 
@@ -24,7 +24,7 @@ This corpus contains 10 "2019 Outlook Reports" produced by financial institution
 
 There are no Gold summary per-se. Instead, we define the gold summaries as follows:
 - Either the collection of sentences or sections of sentences, which appear in bold in the content;
-- Or, any sentences that are highlighted as an insert within the content.
+- Or, sentences that are highlighted as an insert within the content.
 
 We do not enforce any constraint on the length of the Gold summaries. Sentences in any Gold summary respect the order in which they appear in the raw document.
 
